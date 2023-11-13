@@ -1,5 +1,5 @@
 # sacola-api
 Sacola API para Servir uma Aplicação com Domínio de Delivery
-simula um carinho de compras de aplicações de delivery como o ifood
+simulando um carinho de compras de aplicações de delivery como o ifood
 
 
