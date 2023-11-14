@@ -21,12 +21,43 @@ Para uma experiência mais fluida durante autilização da api, sugiro instalar 
 e executar o projeto diretamente pela IDE. Tambem é posivel utilizando o VS CODE com a 
 instalação de extensões do package java
 
-**Tecnologias Utilizadas:**
-- **Spring Initializr:** [https://start.spring.io/](https://start.spring.io/)
-- **Spring Boot Starter Web:** Versão 2.7.4
-- **Spring Boot Starter Data JPA:** Versão 2.7.4
-- **Lombok:** Versão 1.18.24
-- **Springfox Boot Starter:** Versão 3.0.0
-- **H2 Database:** Versão 2.1.214
+<a href="https://drive.google.com/file/d/1-FTY7jRfYbqVNQi-B7Dvn8p6wjnzf2f6/view?usp=sharing"> 🚀 Collection Sacola API - Postman</a><br>
 
+<img src="https://i.imgur.com/UBHcWKt.png" alt="Sacola API Swagger UI">
 
+<h3>Tecnologias Utilizadas</h3>
+
+<table>
+<tr>
+	<th>Dependência</th>
+	<th>Versão</th>
+</tr>
+<tr>
+	<td>spring initialzr</td>
+	<td><a href="https://start.spring.io/">https://start.spring.io/</a></td>
+</tr>
+<tr>
+	<td>spring-boot-starter-web</td>
+	<td>2.7.4</td>
+</tr>
+<tr>
+	<td>spring-boot-starter-data-jpa</td>
+	<td>2.7.4</td>
+</tr>
+<tr>
+	<td>lombok</td>
+	<td>1.18.24</td>
+</tr>
+<tr>
+	<td>springfox-boot-starter</td>
+	<td>3.0.0</td>
+</tr>
+<tr>
+	<td>h2</td>
+	<td>2.1.214</td>
+</tr>
+</table>
+
+<h3>Autor</h3>
+
+<a href="https://www.linkedin.com/in/igorpereirag/">
