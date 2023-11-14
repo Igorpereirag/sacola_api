@@ -58,5 +58,4 @@ instalação de extensões do package java
 </tr>
 </table>
 
-<h3>Autor</h3>
-<a href="https://www.linkedin.com/in/igorpereirag/">
+<a href="https://www.linkedin.com/in/igorpereirag/"a>
