@@ -1,5 +1,5 @@
 # sacola-api
-API REStful para Servir uma Aplicação com Domínio de Delivery
+API RESTfull para Servir uma Aplicação com Domínio de Delivery
 simulando um carinho de compras de aplicações de delivery semelhante ao IFOOD
 
 **Funcionalidades:**
