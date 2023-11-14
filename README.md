@@ -1,5 +1,5 @@
 # sacola-api
-Sacola API para Servir uma Aplicação com Domínio de Delivery
+API REStful para Servir uma Aplicação com Domínio de Delivery
 simulando um carinho de compras de aplicações de delivery semelhante ao IFOOD
 
 **Funcionalidades:**
@@ -8,7 +8,7 @@ simulando um carinho de compras de aplicações de delivery semelhante ao IFOOD
 3. **Fechar sacola:** Conclua suas compras de maneira simples, garantindo uma experiência de checkout eficiente.
 4. **Excluir item da sacola:** Remova produtos indesejados da sacola com um clique, proporcionando flexibilidade ao usuário.
 
-**Demonstração da Aplicação:**
+**Ferramentas**
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 - **Java JDK:** Versão 8 ou superior.
@@ -16,14 +16,10 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 - **Gradle:** Versão 7.**.
 - **Postman:** Versão 9.**.
 
-**Recomendação para Demonstração:**
-Para uma experiência mais fluida durante a demonstração, sugiro instalar o **IntelliJ IDEA**
+**Recomendação para utilização:**
+Para uma experiência mais fluida durante autilização da api, sugiro instalar o **IntelliJ IDEA**
 e executar o projeto diretamente pela IDE. Tambem é posivel utilizando o VS CODE com a 
-instalação de extenções do package java
-
-
-**Collection Postman - Sacola API:**
-Explore as funcionalidades da Sacola API usando o ambiente amigável do Swagger. Para maior comodidade
+instalação de extensões do package java
 
 **Tecnologias Utilizadas:**
 - **Spring Initializr:** [https://start.spring.io/](https://start.spring.io/)
