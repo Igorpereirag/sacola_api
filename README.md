@@ -60,7 +60,6 @@ instalação de extensões do package java
 
 <h3>Autor</h3>
 
-<a href="https://www.linkedin.com/in/igorpereirag/">
-[![Linkedin Badge](https://img.shields.io/badge/-Camila-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cami-la/)](https://www.linkedin.com/in/igorpereirag/)
+[![Linkedin Badge](https://img.shields.io/badge/-Igor%20Pereira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/igorpereirag/)](https://www.linkedin.com/in/igorpereirag/)
 
-<h3>:)</h3>
+<h3> :) </h3>
