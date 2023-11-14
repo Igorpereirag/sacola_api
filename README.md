@@ -58,4 +58,9 @@ instalação de extensões do package java
 </tr>
 </table>
 
-<a href="https://www.linkedin.com/in/igorpereirag/"a>
+<h3>Autor</h3>
+
+<a href="https://www.linkedin.com/in/igorpereirag/">
+[![Linkedin Badge](https://img.shields.io/badge/-Camila-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cami-la/)](https://www.linkedin.com/in/igorpereirag/)
+
+<h3>:)</h3>
