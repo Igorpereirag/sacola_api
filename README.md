@@ -58,6 +58,7 @@ instalação de extensões do package java
 </tr>
 </table>
 
-<a href="https://www.linkedin.com/in/igorpereirag/" target="_blank">Visite meu perfil no LinkedIn</a>
+<a href="https://www.linkedin.com/in/igorpereirag/" target="_blank" style="color: green;">Visite meu perfil no LinkedIn</a>
+
 
 
