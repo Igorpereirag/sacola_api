@@ -21,9 +21,6 @@ Para uma experiência mais fluida durante autilização da api, sugiro instalar 
 e executar o projeto diretamente pela IDE. Tambem é posivel utilizando o VS CODE com a 
 instalação de extensões do package java
 
-<a href="https://drive.google.com/file/d/1-FTY7jRfYbqVNQi-B7Dvn8p6wjnzf2f6/view?usp=sharing"> 🚀 Collection Sacola API - Postman</a><br>
-
-<img src="https://i.imgur.com/UBHcWKt.png" alt="Sacola API Swagger UI">
 
 <h3>Tecnologias Utilizadas</h3>
 
