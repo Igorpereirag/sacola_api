@@ -4,23 +4,22 @@ simulando um carinho de compras de aplicações de delivery semelhante ao IFOOD
 
 **Funcionalidades:**
 1. **Incluir itens na sacola:** Adicione produtos à sua sacola de compras de forma fácil e rápida.
-2. **Visualizar sacola:** Tenha uma visão detalhada dos itens presentes em sua sacola como a quantidade de produtos inseridos,valor unitário e total dos itens antes de finalizar a compra.
-3. **Fechar sacola:** Conclua suas compras de maneira simples, garantindo uma experiência de checkout eficiente.
-4. **Excluir item da sacola:** Remova produtos indesejados da sacola com um clique, proporcionando flexibilidade ao usuário.
-
-1. **Incluir Item na Sacola:**
-   - **Endpoint:** `POST /sacola-api/sacolas`
+- **Endpoint:** `POST /sacola-api/sacolas`
    - **Descrição:** Adiciona um item à sacola com base nos detalhes fornecidos no corpo da solicitação.
-
-2. **Ver Sacola:**
-   - **Endpoint:** `GET /sacola-api/sacolas/{id}`
+   
+2. **Visualizar sacola:** Tenha uma visão detalhada dos itens presentes em sua sacola como a quantidade
+ de produtos inseridos,valor unitário e total dos itens antes de finalizar a compra.
+ - **Endpoint:** `GET /sacola-api/sacolas/{id}`
    - **Descrição:** Recupera informações sobre uma sacola específica com base no ID fornecido.
 
-3. **Fechar Sacola:**
-   - **Endpoint:** `PATCH /sacola-api/sacolas/fecharSacola/{sacolaId}`
+3. **Fechar sacola:** Conclua suas compras de maneira simples, garantindo uma experiência de checkout 
+eficiente.
+- **Endpoint:** `PATCH /sacola-api/sacolas/fecharSacola/{sacolaId}`
    - **Descrição:** Fecha uma sacola existente, permitindo a especificação da forma de pagamento.
 
-4. **Exemplo de Uso:**
+4. **Excluir item da sacola:** Remova produtos indesejados da sacola com um clique, proporcionando flexibilidade ao usuário.
+
+**Exemplo de Uso:**
    Baixa e importe a [Collection](postman_collection/Sacola-API.postman_collection.json) com dados prontos para interagir com a api
 
 
