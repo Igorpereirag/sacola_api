@@ -5,7 +5,6 @@ import me.dio.sacola.enumeration.FormaPagamento;
 import me.dio.sacola.model.Item;
 import me.dio.sacola.model.Restaurante;
 import me.dio.sacola.model.Sacola;
-import me.dio.sacola.repository.ItemRepository;
 import me.dio.sacola.repository.ProdutoRepository;
 import me.dio.sacola.repository.SacolaRepository;
 import me.dio.sacola.resource.dto.ItemDto;
@@ -20,8 +19,7 @@ import java.util.List;
 public class SacolaServiceImpl implements SacolaService {
   private final SacolaRepository sacolaRepository;
   private final ProdutoRepository produtoRepository;
-  private final ItemRepository itemRepository;
-
+  
   @Override
   public Item incluirItemNaSacola(ItemDto itemDto) {
     Sacola sacola = verSacola(itemDto.getSacolaId());

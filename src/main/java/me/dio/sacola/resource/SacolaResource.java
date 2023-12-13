@@ -17,7 +17,7 @@ import me.dio.sacola.service.SacolaService;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/sacola-pi/sacolas")
+@RequestMapping("/sacola-api/sacolas")
 public class SacolaResource {
 
     private final SacolaService SacolaService;
@@ -32,9 +32,10 @@ public Item incluirItemNaSacola(@RequestBody ItemDto itemDto){
 public Sacola verSacola(@PathVariable("id") long id){
     return SacolaService.verSacola(id);
 }
-@PatchMapping("/fecharsacolar/{sacolaid}")
-public Sacola fecharSacola(@PathVariable("sacolaid") long sacolaid, @RequestParam("FormaPagamento") int formaPagamento){
-    return SacolaService.fecharSacola(sacolaid, formaPagamento);
-}
+@PatchMapping("/fecharSacola/{sacolaId}")
+  public Sacola fecharSacola(@PathVariable("sacolaId") Long sacolaId,
+                             @RequestParam("formaPagamento") int formaPagamento) {
+    return SacolaService.fecharSacola(sacolaId, formaPagamento);
+  }
 
 }
