@@ -9,7 +9,7 @@ simulando um carinho de compras de aplicações de delivery semelhante ao IFOOD
 4. **Excluir item da sacola:** Remova produtos indesejados da sacola com um clique, proporcionando flexibilidade ao usuário.
 
 collection do postaman para interagir com a api
-[collection](postman_collection\Sacola-API.postman_collection.json)
+[collection](sacola-api\postman_collection\Sacola-API.postman_collection.json)
 
 
 **Ferramentas**
