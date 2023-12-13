@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "e6fa8dc6-c744-44d0-96b6-91a9e7358a03",
+		"name": "Sacola-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30982746"
+	},
+	"item": [
+		{
+			"name": "verSacola",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/sacola-api/sacolas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sacola-api",
+						"sacolas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fecharSacola",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/sacola-api/sacolas/fecharSacola/1?formaPagamento=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sacola-api",
+						"sacolas",
+						"fecharSacola",
+						"1"
+					],
+					"query": [
+						{
+							"key": "formaPagamento",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "incluirItemNaSacola",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"produtoId\" : 2,\n    \"quantidade\" : 3,\n    \"sacolaId\" : 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/ifood-devweek/sacolas/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"ifood-devweek",
+						"sacolas",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
