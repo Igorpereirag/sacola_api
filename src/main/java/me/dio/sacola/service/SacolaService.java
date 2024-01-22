@@ -8,4 +8,5 @@ public interface SacolaService {
   Item incluirItemNaSacola(ItemDto itemDto);
   Sacola verSacola(Long id);
   Sacola fecharSacola(Long id, int formaPagamento);
+Sacola removerItem(Long id, int itemId);
 }

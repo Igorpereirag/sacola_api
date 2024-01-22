@@ -38,4 +38,13 @@ public Sacola verSacola(@PathVariable("id") long id){
     return SacolaService.fecharSacola(sacolaId, formaPagamento);
   }
 
+  //delete itens from sacola
+@PatchMapping("/removerItem/{id}")
+public Sacola removerItem(@PathVariable("id") Long id, @RequestParam("itemId") int itemId){
+    return SacolaService.removerItem(id, itemId);
+    
 }
+
+}
+  
+

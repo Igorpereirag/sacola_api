@@ -17,7 +17,10 @@ eficiente.
 - **Endpoint:** `PATCH /sacola-api/sacolas/fecharSacola/{sacolaId}`
    - **Descrição:** Fecha uma sacola existente, permitindo a especificação da forma de pagamento.
 
-4. **Excluir item da sacola:** Remova produtos indesejados da sacola com um clique, proporcionando flexibilidade ao usuário.
+4. **Excluir item da sacola:** Remova produtos indesejados da sacola com um clique, proporcionando flexibilidade ao usuário. 
+- **Endpoint:** `PATCH /removerItem/{id} `
+   - **Descrição:** Remove um item especificado da sacala
+
 
 **Exemplo de Uso:**
    Baixa e importe a [Collection](postman_collection/Sacola-API.postman_collection.json) postaman com dados prontos para interagir com a api
