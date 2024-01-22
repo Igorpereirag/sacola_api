@@ -76,7 +76,7 @@ instalação de extensões do package java
 </tr>
 </table>
 
-STATUS: EM ANDAMENTO
+
 
 
 
