@@ -93,4 +93,24 @@ public class SacolaServiceImpl implements SacolaService {
     sacola.setFechada(true);
     return sacolaRepository.save(sacola);
   }
+
+  
+  public Sacola removerItem(Long id, int itemId) { 
+    Sacola sacola = verSacola(id);
+    List<Item> itensDaScola = sacola.getItens();
+    itensDaScola.remove(itemId);
+    sacola.setItens(itensDaScola);
+    sacolaRepository.save(sacola);
+    return sacola; 
+  }
+
+
+
+
+
+
+ 
+
 }
+
+
