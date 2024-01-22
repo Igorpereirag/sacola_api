@@ -23,7 +23,7 @@ eficiente.
 
 
 **Exemplo de Uso:**
-   Baixa e importe a [Collection](postman_collection/Sacola-API.postman_collection.json) postaman com dados prontos para interagir com a api
+   Baixa e importe a [Collection](postman_collection/Sacola-API.postman_collection.json) no postaman com dados prontos para interagir com a api
 
 
 
