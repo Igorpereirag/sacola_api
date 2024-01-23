@@ -1,6 +1,6 @@
 # sacola-api
 API RESTful para Servir uma Aplicação com Domínio de Delivery
-simulando um carinho de compras de aplicações de delivery semelhante ao IFOOD
+simulando um carinho de compras de aplicações de delivery
 
 **Funcionalidades:**
 1. **Incluir itens na sacola:** Adicione produtos à sua sacola de compras de forma fácil e rápida.
